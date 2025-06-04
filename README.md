@@ -60,7 +60,12 @@ streamlit run app/main.py
 
 ## 🚀 Live Demo
 
-👉 [Launch the App]()
+👉 [Launch the App](https://option-pricer-demo-app.streamlit.app/)
+
+---
+
+## 📸 Screenshot
+![App Preview](screenshot.png)
 
 ---
 
