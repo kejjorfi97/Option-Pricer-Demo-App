@@ -33,6 +33,7 @@ An interactive web application for pricing European options using the Black-Scho
 
 ## 📂 Project Structure
 
+``` 
 Option-Pricer-Demo-App/
 ├── app.py # Main Streamlit app
 ├── utils/
@@ -41,7 +42,7 @@ Option-Pricer-Demo-App/
 │ └── visuals.py # Charting and visual components
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+```
 
 ---
 
