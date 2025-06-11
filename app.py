@@ -51,4 +51,4 @@ if st.sidebar.button("Calculate"):
     st.dataframe(greeks)
 
     st.subheader("📉 Volatility Smile")
-    st.plotly_chart(simulate_vol_smile(S))
+    st.plotly_chart(simulate_vol_smile(K))

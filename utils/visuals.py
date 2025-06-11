@@ -70,7 +70,7 @@ def draw_payoff_chart(S, K, premium, option_type):
 
 def simulate_vol_smile(S, base_vol=0.2):
     strikes = np.linspace(0.8 * S, 1.2 * S, 30)
-    vols = [base_vol + 0.05 * abs((K - S) / S) for K in strikes]  # Fake smile
+    vols = [base_vol + 0.05 * abs((K - S) / S) for K in strikes]
 
     fig = go.Figure()
     fig.add_trace(go.Scatter(x=strikes, y=vols, mode='lines+markers', name='Vol Smile'))
